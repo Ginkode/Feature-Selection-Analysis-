@@ -1,23 +1,17 @@
 # Autism Feature Selection Analysis
 
-Statistical analysis of an autism-related dataset focused on **feature selection** and the identification of the variables that contribute most strongly to the modelling task.
+University statistical-analysis project on an autism-related dataset, focused on identifying which predictors are most useful for the modelling task.
 
-This repository was developed as a university Statistical Models project and is being prepared as part of a data-science portfolio.
+## Focus of the analysis
 
-## Project focus
+The project studies:
 
-The analysis is centered on questions such as:
+- variable relevance;
+- redundant or weak predictors;
+- feature-selection strategies;
+- the trade-off between model simplicity and explanatory value.
 
-- which variables carry the most useful information;
-- which predictors are redundant or weak;
-- how different feature-selection approaches compare;
-- how variable selection can simplify a statistical model while preserving explanatory value.
-
-## Why feature selection matters
-
-Feature selection can improve interpretability, reduce noise and multicollinearity, simplify models, and sometimes improve generalization. In applied data science, it is also useful when the goal is not only prediction but understanding which predictors matter most.
-
-## Repository structure
+## Repository contents
 
 ```text
 Feature-Selection-Analysis-/
@@ -26,22 +20,17 @@ Feature-Selection-Analysis-/
     └── autism_feature_selection_report.pdf
 ```
 
-## Full report
+The PDF contains the original methodology, results, and interpretation from the university project. The report is in **Italian**; this README is in English so that the project can be understood quickly from the GitHub profile.
 
-The complete analysis is available in:
+## Current limitation
 
-`report/autism_feature_selection_report.pdf`
+The main missing element is the original analysis source code. The repository currently contains the final report but not the R/R Markdown or Python file used to produce it.
 
-The report contains the statistical methodology, results, and interpretation developed for the original project.
+For a portfolio, adding that source code is the highest-priority improvement because it would make the analysis reproducible and allow reviewers to inspect the implementation directly.
 
-## Important portfolio note
+## Next improvements
 
-At the moment the repository contains the final report but **not the original analysis code**. The next improvement should therefore be to add the R/R Markdown or Python source used to produce the analysis. For a technical portfolio, reproducible code is more valuable than a report alone.
-
-## Possible improvements
-
-- add the original analysis source code;
+- add the original source code;
 - document the dataset source and variables;
-- summarize the feature-selection methods directly in this README;
-- add a concise table of selected variables and main conclusions;
-- add reproducibility instructions and package dependencies.
+- summarize the feature-selection methods and final selected predictors in this README;
+- add package/dependency information and reproduction instructions.
